@@ -1,0 +1,27 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Este repositorio cuenta con un breve ejercicio de creación de API utilizando node.js y docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "fs": "*",
+    "ip": "^1.1.5",
+    "mongodb": "^4.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xihomararazo/rest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xihomararazo/rest/issues"
+  },
+  "homepage": "https://github.com/xihomararazo/rest#readme"
+}
