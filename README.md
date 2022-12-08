@@ -21,12 +21,13 @@ Ejectuamos
 En el archivo server.js podemos encontrar una API relacionada con Pacientes, 
 los datos que contiene cada documento son String name, int age, double height, double weight
 
-ejemplo:{name:'Xihomara', age:20, height:1.65, weight:65},
+Ejemplo --> {name:'Xihomara', age:20, height:1.65, weight:65},
 
 Al inicializar el documento se ejecuta
 Insert de documentos a base de datos con documentos iniciales si la base de datos esta vacía.
 
 y podemos consultar 
+
 	get  '/docs/all'  --> proporciona todos los documentos de la colección 
 
 	get  '/query' --> proporciona todos los documentos de la colección que correspondan al query({name:""})
